@@ -1,0 +1,33 @@
+.product-list {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+  grid-gap: 10px;
+}
+
+.product-list table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.product-list th,
+.product-list td {
+  padding: 10px;
+  text-align: left;
+}
+
+.product-list th {
+  background-color: #333;
+  color: #fff;
+}
+
+.product-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-list img {
+  display: block;
+  margin: 0 auto;
+  max-width: 10%;
+  height: auto;
+}
